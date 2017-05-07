@@ -2,17 +2,17 @@ package model;
 
 public class ServerInfo {
 private int port;
-private int ip;
+private String ip;
 public int getPort() {
 	return port;
 }
 public void setPort(int port) {
 	this.port = port;
 }
-public int getIp() {
+public String getIp() {
 	return ip;
 }
-public void setIp(int ip) {
+public void setIp(String ip) {
 	this.ip = ip;
 }
 
